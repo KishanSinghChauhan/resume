@@ -1,0 +1,36 @@
+import Image from 'next/image';
+import React from 'react'
+
+const Clients = () => {
+  return (
+    <div className="container my-[150px]">
+      <h3 className="text-6xl text-center">Clients worked with</h3>
+      <div className="grid grid-cols-4 gap-6 mt-20">
+        {[12, 3, 556, 6, 7, 78, 88].map((client) => (
+          <div
+            key={client}
+            className="flex justify-center items-center border-2 border-[#C1EB1C] h-[150px]"
+          >
+            <Image
+              src="/images/logo.svg"
+              alt="hello"
+              width={170}
+              height={100}
+              objectFit="contain"
+            />
+          </div>
+        ))}
+        <div className="bg-[#030326] h-[150px] flex justify-center items-center">
+          <div className='absolute top-1/2 transform -translate-y-1/2 left-0 w-full h-[80%]'>
+            <Image src='/images/background.png' alt='star' fill objectFit='contain' />
+          </div>
+          <p className='text-xl font-semibold w-[226px] text-center text-white font-sans'>
+          & few more and here it could be you 😄
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Clients

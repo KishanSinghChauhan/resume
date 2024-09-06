@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,13 +17,19 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #030326;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+*{
+  box-sizing: border-box;
+  position: relative;
 }
