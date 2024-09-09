@@ -13,14 +13,14 @@ const Footer = () => {
         <h5 className="text-[#E7E0FA] text-[88px] leading-[90px]">
           Let’s get in touch!
         </h5>
-        <p className="text-[#E7E0FA] text-2xl mt-7 font-sans">
+        <p className="text-[#E7E0FA] text-2xl mt-7 font-sans leading-normal">
           Don’t surprise! Being an Indian, i also make good coffee though ☕️
           <br />
           Let’s get in touch and maybe share one someday.
         </p>
         <div className="flex gap-6 items-center mt-[240px]">
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@example.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskanverma5910@gmail.com"
             target="_blank"
             rel="nofollow noreferrer"
           >
@@ -42,7 +42,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/muskaan-verma-6aba71179/"
+            href="https://www.behance.net/muskanverma1"
             target="_blank"
             rel="nofollow noreferrer"
           >
@@ -53,7 +53,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="/Kishan's Resume.pdf"
+            href="/Resume-Muskaan.pdf"
             target="_blank"
             rel="nofollow noreferrer"
           >
