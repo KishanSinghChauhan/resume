@@ -12,7 +12,7 @@ const Header = () => {
   const showPageScrollButtons = pathname === "/";
 
   return (
-    <header className="sticky top-0 z-20 backdrop-blur-[150px]">
+    <header className="sticky top-0 z-20 bg-white">
       <div className="container flex justify-between items-center py-4 md:py-6">
         <Link href="/">
           <Image
