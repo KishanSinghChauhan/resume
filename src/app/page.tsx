@@ -14,18 +14,18 @@ export default function Home() {
     <>
       <HeroSection />
       <section className="container" id="about">
-        <div className="flex flex-nowrap mb-10">
+        <div className="flex flex-wrap md:flex-nowrap mb-8 md:mb-10">
           {Services.map((service, index) => (
             <div
               key={service}
               className={clsx(
-                "flex-1 border-black border-t border-r flex justify-center items-center h-20",
+                "flex-1 border-black border-t min-w-[50%] md:min-w-[25%] border md:border-r flex justify-center items-center h-20",
                 {
                   "border-l": index === 0,
                 }
               )}
             >
-              <span className="inline-block text-2xl">{service}</span>
+              <span className="inline-block text-xl md:text-2xl">{service}</span>
             </div>
           ))}
         </div>
@@ -35,11 +35,11 @@ export default function Home() {
       <Clients />
 
       <section
-        className="container flex flex-col items-center my-[150px]"
+        className="container flex flex-col items-center my-20 md:my-[150px]"
         id="projects"
       >
-        <h2 className="text-6xl">Selected Projects</h2>
-        <div className="w-full grid grid-cols-2 gap-x-6 gap-y-20 my-20">
+        <h2 className="text-4xl md:text-6xl">Selected Projects</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-4 md:gap-x-6 gap-y-14 md:gap-y-20 my-12 md:my-20">
           {Projects_List.map((project, index) => {
             if(!project.showOnHomePage) return;
             return (

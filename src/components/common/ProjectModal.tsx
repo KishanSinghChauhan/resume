@@ -5,22 +5,28 @@ import { FC, useState } from "react";
 
 interface IModalProps {
   open: boolean;
-  onHandleClose: () => void;
+  onClose: () => void;
   handleRedirect: () => void;
 }
 
 export const ProjectModal: FC<IModalProps> = ({
   open,
-  onHandleClose,
+  onClose,
   handleRedirect,
 }) => {
   const [value, setValue] = useState("");
   const [error, setError] = useState(false);
 
+  const handleClose = () => {
+    onClose();
+    setValue("");
+    setError(false);
+  };
+
   const handleContinue = () => {
     if (value === "muskaan@123") {
       handleRedirect();
-      onHandleClose();
+      handleClose();
     } else {
       setError(true);
     }
@@ -30,8 +36,9 @@ export const ProjectModal: FC<IModalProps> = ({
     setValue(val);
     setError(false);
   };
+
   return (
-    <Modal show={open} onClose={onHandleClose} size="md">
+    <Modal show={open} onClose={handleClose} size="md">
       <Modal.Body>
         <div className="space-y-6 mb-4">
           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -53,10 +60,10 @@ export const ProjectModal: FC<IModalProps> = ({
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={handleContinue}>I accept</Button>
-        <Button color="gray" onClick={onHandleClose}>
-          Decline
+        <Button color="gray" onClick={handleClose}>
+          Go back
         </Button>
+        <Button onClick={handleContinue}>Continue</Button>
       </Modal.Footer>
     </Modal>
   );

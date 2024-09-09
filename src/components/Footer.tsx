@@ -9,16 +9,16 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="bg-black">
-      <div className="container relative py-[120px] ">
-        <h5 className="text-[#E7E0FA] text-[88px] leading-[90px]">
+      <div className="container relative py-16 md:py-[120px] ">
+        <h5 className="text-[#E7E0FA] text-5xl md:text-[88px] leading-normal md:leading-[90px]">
           Let’s get in touch!
         </h5>
-        <p className="text-[#E7E0FA] text-2xl mt-7 font-sans leading-normal">
-          Don’t surprise! Being an Indian, i also make good coffee though ☕️
-          <br />
-          Let’s get in touch and maybe share one someday.
+        <p className="text-[#E7E0FA] text-xl md:text-2xl mt-6 md:mt-7 font-sans leading-relaxed md:leading-normal max-w-[720px]">
+          A designer from India turning ideas into creative solution. Let&apos;s
+          get in touch and explore new design opportunities.
         </p>
-        <div className="flex gap-6 items-center mt-[240px]">
+
+        <div className="flex gap-6 items-center mt-[240px] flex-wrap">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskanverma5910@gmail.com"
             target="_blank"
@@ -64,7 +64,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <div className="absolute w-[40%] h-full top-0 right-0 flex items-center opacity-10">
+        <div className="absolute w-[80%] md:w-[40%] h-full top-0 right-0 flex items-center opacity-15 md:opacity-20">
           <div className="relative w-full h-[84%]">
             <Image src="/images/footer_logo.svg" alt="footer logo" fill />
           </div>

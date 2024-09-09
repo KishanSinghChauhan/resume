@@ -123,7 +123,7 @@ export const Projects_List = [
   },
   {
     name: "Amasatech UI Refresh",
-    imgSrc: "/images/projects/amasa.webp",
+    imgSrc: "/images/projects/amasatech.webp",
     showOnHomePage: true,
     tags: ["UI", "UX"],
     webLink: "",
@@ -265,7 +265,7 @@ export const Testimonials_List = [
   },
   {
     detail:
-      "Working with Muskaan Verma on our recent project has been an absolute pleasure. From the very start, she demonstrated a deep understanding of our vision and translated that into an intuitive, visually stunning user interface that truly enhances our brand’s online presence. What stood out the most was her ability to balance aesthetics with functionality—creating a seamless user experience that not only looks great but is also incredibly easy to navigate. Throughout the process, Muskaan was responsive, detail-oriented, and always open to feedback, which made collaboration smooth and enjoyable. As a marketing manager, I can confidently say that the end result exceeded our expectations and will play a key role in achieving our business goals. I highly recommend Muskaan for any UI/UX design needs, and I look forward to working together again in the future!",
+      "Working with Muskaan Verma on our recent project has been an absolute pleasure. From the very start, she demonstrated a deep understanding of our vision and translated that into an intuitive, visually stunning user interface that truly enhances our brand’s online presence. As a marketing manager, I can confidently say that the end result exceeded our expectations and will play a key role in achieving our business goals. I highly recommend Muskaan for any UI/UX design needs, and I look forward to working together again in the future!",
     name: "Nikita chitkara",
     occupation: "Social Media Manager, Athmick",
     linkedIn: "https://www.linkedin.com/in/nikita-chitkara-6908751aa/",
