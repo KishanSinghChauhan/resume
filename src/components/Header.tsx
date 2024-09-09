@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-20 bg-white">
-      <div className="container flex justify-between items-center py-4 md:py-6">
+      <div className="container flex justify-between items-center py-4">
         <Link href="/">
           <Image
             src="/images/logo.svg"

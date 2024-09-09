@@ -51,7 +51,7 @@ const Project: FC<IProjectProps> = ({
         onClick={handleClick}
       >
         <div
-          className="relative w-full aspect-square max-h-max md:max-h-[520px] border-[10px] overflow-hidden group inline-block cursor-pointer"
+          className="relative w-full aspect-square max-h-none md:max-h-[520px] border-[10px] overflow-hidden group inline-block cursor-pointer"
           style={{ borderColor }}
         >
           {comingSoon && (

@@ -19,13 +19,13 @@ export default function Home() {
             <div
               key={service}
               className={clsx(
-                "flex-1 border-black border-t min-w-[50%] md:min-w-[25%] border md:border-r flex justify-center items-center h-20",
+                "flex-1 border-black border-t min-w-[50%] md:min-w-[25%] border md:border-r md:border-b-0 flex justify-center items-center h-20",
                 {
                   "border-l": index === 0,
                 }
               )}
             >
-              <span className="inline-block text-xl md:text-2xl">{service}</span>
+              <span className="inline-block text-xl md:text-2xl text-center">{service}</span>
             </div>
           ))}
         </div>
