@@ -18,7 +18,7 @@ const Footer = () => {
           get in touch and explore new design opportunities.
         </p>
 
-        <div className="flex gap-6 items-center mt-[240px] flex-wrap">
+        <div className="flex gap-6 items-center mt-[240px] justify-between md:justify-start flex-wrap relative z-10">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskanverma5910@gmail.com"
             target="_blank"
