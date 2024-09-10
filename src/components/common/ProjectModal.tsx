@@ -41,7 +41,10 @@ export const ProjectModal: FC<IModalProps> = ({
     <Modal show={open} onClose={handleClose} size="md">
       <Modal.Body>
         <div className="space-y-6 mb-4">
-          <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+          <p className="text-base leading-relaxed text-gray-400">
+            Note: Case study details protected by confidentiality agreements.
+          </p>
+          <p className="text-sm leading-relaxed text-gray-400">
             Please enter password <span className="text-red-500">*</span>
           </p>
           <div className="relative">
