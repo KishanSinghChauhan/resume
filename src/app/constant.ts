@@ -107,7 +107,7 @@ export const Projects_List = [
     tags: ["UI", "UX"],
     webLink: "",
     caseStudyLink:
-      "https://www.figma.com/proto/8ttE4oTa4nKnFCsymWCNds/SISO-Figma-File?page-id=0%3A1&node-id=1-604&node-type=FRAME&viewport=436%2C736%2C0.06&t=ysRl888D1h9PXlNv-1&scaling=min-zoom&content-scaling=fixed",
+      "https://www.figma.com/proto/RH4pLut3BcSyWmiOWLFOO4/Portfolio-Case-study?page-id=12%3A1005&node-id=12-1608&node-type=frame&viewport=1026%2C2260%2C0.21&t=Ge3hE3GiWVAD7zTR-1&scaling=min-zoom&content-scaling=fixed",
     borderColor: "#FC643A",
     isPrivate: true,
   },
