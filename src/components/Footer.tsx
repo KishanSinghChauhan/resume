@@ -53,7 +53,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="/Final-Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="nofollow noreferrer"
           >
