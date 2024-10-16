@@ -1,10 +1,10 @@
-import React from 'react'
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaBehance } from "react-icons/fa";
 import { GrLinkDown } from "react-icons/gr";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <div className="flex gap-6 items-center mt-[240px] justify-between md:justify-start flex-wrap relative z-10">
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskanverma5910@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskaanverma547@gmail.com"
             target="_blank"
             rel="nofollow noreferrer"
           >
@@ -53,7 +53,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="/resume2.pdf"
+            href="/muskaan-resume.pdf"
             target="_blank"
             rel="nofollow noreferrer"
           >
@@ -72,6 +72,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

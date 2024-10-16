@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import React from "react";
@@ -8,7 +8,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
-  const pathname = usePathname()
+  const pathname = usePathname();
   const showPageScrollButtons = pathname === "/";
 
   return (
@@ -41,7 +41,7 @@ const Header = () => {
           </div>
         )}
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskanverma5910@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=muskaanverma547@gmail.com"
           target="_blank"
           rel="nofollow noreferrer"
         >
